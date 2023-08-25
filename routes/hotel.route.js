@@ -1,4 +1,4 @@
-const hotelController = require('../controllers/hotel.controller');
+const hotelController = require('../controller/hotel.controller');
 
 module.exports = function (app){
     app.post('/api/restaurant/add', hotelController.addHotel);
