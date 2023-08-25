@@ -1,4 +1,4 @@
-const Hotel = require('../models/hotel.model');
+const Hotel = require('../model/hotel.model');
 
 /* add hotels api starts here */
 
