@@ -20,7 +20,7 @@ conn.on("error", () => {
     process.exit();
 });
 
-// require("./routes/auth.route")(app);
+require("./routes/hotel.route")(app);
 
 app.listen(serverConfig.PORT,()=>{
     console.log(`listening on port ${serverConfig.PORT}`);
